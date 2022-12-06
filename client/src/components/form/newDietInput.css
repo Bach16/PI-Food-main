@@ -1,0 +1,55 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1d21;
+    color: rgb(241, 241, 135);
+    margin-left: 0.5rem ;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+
+}
+
+.addDiet{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.label{
+    margin-right: 0.5rem ;
+
+}
+#addButton{
+    background-color: rgba(241, 239, 221, 0.932);
+    color: #1b1d21;
+    cursor: pointer;
+    border: none;
+    width: 40px;
+    height: 18px;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+
+}
+.Diet{
+    background-color: #1b1d21;
+    color: whitesmoke;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+    margin: 0.25rem 1rem 0.25rem 1rem;
+    width: 140px;
+    height: 45px;
+    color: #1b1d21;
+    background-color: rgba(241, 239, 221, 0.932);
+    border-radius: 4px;    
+}
